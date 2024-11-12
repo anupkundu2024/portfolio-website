@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(Anup\ vai.png);
+    /* background-image: url(Anup\ vai.png); */
 }
 
 .navbar {
@@ -30,7 +30,7 @@
 }
 
 .logo:hover {
-    color: red;
+    color: green;
 }
 
 ul {
@@ -109,13 +109,18 @@ section {
     color: black;
 }
 
-.social a {
+.social i {
     margin-left: 20px;
     border: 2px solid white;
     padding: 10px;
     border-radius: 50%;
-    background-color: green;
-    font-weight: 600;
+    /* background-color: green; */
+    /* font-weight: 800 */
+    font-size: 27px;
+    
+}
+.social i:hover{
+    font-size: 30px;
 }
 
 .img-box {
